@@ -17,7 +17,7 @@ function Header(props) {
     const [showSuggations, setShowSuggations] = useState(false)
     //debouncing
     //make a api call after every key press
-    //diff between two key press < 200 decline api call
+    //diff between two key press < 200ms decline api call
     //diff between two key press > 200 call api
       
     /**
